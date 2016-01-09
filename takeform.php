@@ -5,7 +5,7 @@
 <body>
 <?php
   // Change this to YOUR address
-  $recipient = 'rohp2016@gmail.com';
+  $recipient = 'rohpberkeley2016@gmail.com';
   $email = $_POST['email'];
   $realName = $_POST['realname'];
   $subject = $_POST['subject'];
