@@ -146,7 +146,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #fcac45;
+	color: #f9da23;
 }
 
 a.fa.fa-angle-down {
@@ -159,9 +159,9 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #f9da23;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #f9da23;
 }
 /* About Section */
 #tf-about{
@@ -238,7 +238,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #FCAC45;
+	border: 4px solid #f9da23;
 }
 #tf-team .thumbnail {
 	background: transparent;
@@ -268,10 +268,10 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #FCAC45;
+	background: #f9da23;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #FCAC45;
+	background: #f9da23;
 }
 
 /* Services Section */
@@ -285,7 +285,7 @@ img.img-circle.team-img {
 
 #tf-services i.fa {
 	font-size: 40px;
-	border: 4px solid #FCAC45;
+	border: 4px solid #f9da23;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -300,7 +300,7 @@ img.img-circle.team-img {
 }
 
 #tf-services .service:hover>i.fa{
-	background: #FCAC45;
+	background: #f9da23;
 	color: #ffffff;
 }
 
@@ -440,7 +440,7 @@ ol.type li a.active { font-weight: 700; }
 	font-size: 20px;
 	padding: 5px;
 	border-radius: 50%;
-	color: #FCAC45;
+	color: #f9da23;
 }
 /* Testimonials Section */
 #tf-testimonials{
@@ -515,7 +515,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: right;
-	background: #FCAC45;
+	background: #f9da23;
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -566,6 +566,6 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #FCAC45;
-	border-color: #FCAC45;
+	background: #f9da23;
+	border-color: #f9da23;
 	color: #ffffff;
