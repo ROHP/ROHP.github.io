@@ -178,7 +178,7 @@ ul.about-list li span{
 	margin-right: 10px;
 }
 
-/* Team Section */
+/* Committee Section */
 #tf-team{
 	background: url(../img/memorialstadium.jpg);
 	background-size: cover;
@@ -274,7 +274,7 @@ img.img-circle.team-img {
 	background: #f9da23;
 }
 
-/* Services Section */
+/* Registration Section */
 #tf-services{
 	padding: 80px 0;
 }
@@ -304,7 +304,7 @@ img.img-circle.team-img {
 	color: #ffffff;
 }
 
-/* Clients Section */
+/* What to Bring Section */
 #tf-clients{
 	background: url(../img/sathergate.jpg);
 	background-size: cover;
@@ -332,7 +332,7 @@ img.img-circle.team-img {
     color: #FFF;
     text-align: center;
 }
-/* Gallery Section 
+/* ROHP Dates Section 
 ==============================*/
 #tf-works{
 	padding: 80px 0;
@@ -442,13 +442,14 @@ ol.type li a.active { font-weight: 700; }
 	border-radius: 50%;
 	color: #f9da23;
 }
-/* Testimonials Section */
+/* FAQ Section */
 #tf-testimonials{
 	background: url(../img/biggameweek.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	opacity: 0.6;
 	color: #ffffff;
 }
 
