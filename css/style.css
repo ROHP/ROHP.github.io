@@ -215,14 +215,14 @@ ul.about-list li span{
 	margin-top: 20px;
 }
 
-.section-title.center hr {
+/*.section-title.center hr {
 	border-top: 4px solid rgba(252, 172, 69, 0.34);
 	width: 40px;
 	text-align: center;
 	margin-top: 10px;
 	position: relative;
 	left: 17%;
-}
+}*/
 #team{ margin: 0 auto}
 #team .item{
     padding: 0;
