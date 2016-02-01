@@ -47,13 +47,13 @@ a:focus{
 	color: #f9da23;
 }
 
-.section-title hr{
+/*.section-title hr{
 	border-color: #f9da23;
 	border-width: 4px;
 	width: 60px;
 	float: left;
 	clear: both;
-}
+}*/
 .clearfix:after {
      visibility: hidden;
      display: block;
