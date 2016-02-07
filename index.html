@@ -37,7 +37,11 @@
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
     
-    
+    <!-- Tooltipser -->
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,7 +49,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+    <script>
+        $(document).ready(function() {
+            $('.tooltip').tooltipster();
+        });
+    </script>
   </head>
   <body>
     <!-- Navigation
@@ -143,7 +151,8 @@
                 <div id="team" class="owl-carousel owl-theme row">
                     <div class="item">
                         <div class="thumbnail">
-                            <img src="img/team/Aditya.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/team/Aditya.jpg" alt="..." class="img-circle team-img tooltip" title="This is my image's tooltip message!" />
+                            <!--<img src="img/team/Aditya.jpg" alt="..." class="img-circle team-img"> -->
                             <div class="caption">
                                 <h3>Aditya Nandy</h3>
                                 <p>Co-coordinator</p>
@@ -316,27 +325,29 @@
             <div class="space"></div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-desktop"></i>
+                    <i class="fa fa-desktop" ></i>
                     <h4><strong>EventBrite</strong></h4>
                     <p>Click on the above icon to go to eventbrite and register yourself for an ROHP date.</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-gavel"></i>
-                    <h4><strong>Waiver</strong></h4>
-                    <p>Click on the above icon to obtain the TWO waivers necessary for attendance. E-mail both waivers to uspho@berkeley.edu.</p>
-                </div>
-
-                <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-envelope-o"></i>
+                    <i class="fa fa-envelope"></i>
                     <h4><strong>E-mail us</strong></h4>
                     <p>Click on the above icon to e-mail the ROHP committee about concerns.</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-mobile"></i>
-                    <h4><strong>Mobile App</strong></h4>
-                    <p>Download our mobile app, which will help you keep track of schedule and location.</p>
+                    <i class="fa fa-gavel"></i>
+                    <a href = "/pdf/waiver1.pdf">
+                    <h4><strong>Waiver #1</strong></h4>
+                    <p>Click on the above icon to obtain the first waiver necessary for attendance. E-mail both waivers to uspho@berkeley.edu and rohpberkeley2016@gmail.com.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 service">
+                    <i class="fa fa-gavel"></i>
+                    <a href = "/pdf/waiver2.pdf">
+                    <h4><strong>Waiver #2</strong></h4>
+                    <p>Click on the above icon to obtain the second waiver necessary for attendance. E-mail both waivers to uspho@berkeley.edu and rohpberkeley2016@gmail.com.</p>
                 </div>
             </div>
         </div>
