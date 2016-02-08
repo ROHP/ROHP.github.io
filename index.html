@@ -37,14 +37,6 @@
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
     
-    <!-- Tooltip
-    ================================================== -->
-    <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip(); 
-    });
-    </script>
-    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -151,6 +143,7 @@
                     <div class="item">
                         <div class="thumbnail">
                             <img src="img/team/Aditya.jpg" alt="..." class="img-circle team-img" data-toggle="tooltip" data-placement="bottom" title="Aditya's Bio!">
+                            <script> $(function () { $("[data-toggle = 'tooltip']").tooltip(); });</script>
                             <div class="caption">
                                 <h3>Aditya Nandy</h3>
                                 <p>Co-coordinator</p>
