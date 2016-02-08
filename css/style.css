@@ -459,6 +459,7 @@ ol.type li a.active { font-weight: 700; }
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
+	opacity: 0.6;
 }
 
 #tf-testimonials .overlay{
