@@ -237,7 +237,7 @@ img.img-circle.team-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#tf-team .item .thumbnail .tooltips span:hover>img.img-circle.team-img{
+#tf-team .item .thumbnail .tooltips:hover>img.img-circle.team-img{
 	border: 4px solid #f9da23;
 	visibility: visible;
 	  opacity: 0.8;
@@ -246,11 +246,11 @@ img.img-circle.team-img {
 	  margin-left: -76px;
 	  z-index: 999;
 }
-#tf-team .tooltips {
+.tooltips {
   position: relative;
   display: inline;
 }
-#tf-team .tooltips span {
+.tooltips span {
   position: absolute;
   width:140px;
   color: #FFFFFF;
@@ -261,7 +261,7 @@ img.img-circle.team-img {
   visibility: hidden;
   border-radius: 4px;
 }
-#tf-team .tooltips span:after {
+.tooltips span:after {
   content: '';
   position: absolute;
   bottom: 100%;
