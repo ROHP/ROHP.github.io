@@ -421,13 +421,11 @@
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
-                                <div class="hover-text">
+                                <div class="hover-text portfolio-item">
                                     <h4>Randy Schekman</h4>
                                     <small>Speaker & Nobel Laureate</small>
                                     <div class="clearfix"></div>
-                                    <a1 href="http://figureskating.berkeley.edu/">
-                                        <i class="fa fa-plus"></i>
-                                    </a1>
+                                    <button1><i class="fa fa-plus"></i></button1>
                                 </div>
                                 <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
                             </a>
@@ -684,23 +682,15 @@
     <script type="text/javascript" src="js/main.js"></script>
 
     <script>
-      $('a1').click(function(e) {
-        e.preventDefault(); // Prevent the href from redirecting directly
-        var linkURL = $(this).attr("href");
-        warnBeforeRedirect(linkURL);
-      });
-
-      function warnBeforeRedirect(linkURL) {
-        swal({
-          title: "Leave this site?", 
-          text: "If you click 'OK', you will be redirected to " + linkURL, 
-          type: "warning",
-          showCancelButton: true
-        }, function() {
-          // Redirect the user
-          window.location.href = linkURL;
+        $('button1').click(function(e) {
+            e.preventDefault();
+            warnBeforeRedirect1();
         });
-      }
+        function warnBeforeRedirect1() {
+            swal({     
+                html: "<h1>The <a href='http://linlab.stanford.edu/'>Lin Lab</a>.</h1><p>After my graduation from high school, I took part in the highly selective <a href='http://simr.stanford.edu/'>SIMR</a> program at Stanford. 62 participants were selected out of 1400 applications. This amazing hands-on program allowed me to delve into my first research experience in the lab of Dr. Michael Z. Lin in the Departments of Bioengineering and Pediatrics. I conducted research on the Dronpa-Intersectin-Dronpa fluorescent light inducible protein (FLiP) system in rat neurons under postdoctoral fellow Dr. Hyokeun Park. My first experiences with cell culture, microscopy, medical imaging, and protein engineering came during my time in the Lin Lab. I remained in the lab until I began school at UC Berkeley. The poster that I designed and presented is <a href='img/poster.pdf'>here</a>.</p>",    
+            });
+        }
     </script>
 
   </body>
