@@ -35,6 +35,11 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
+
+    <!-- SweetAlert -->
+    <script src="bower_components/sweetalert/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="bower_components/sweetalert/dist/sweetalert2.css">
+
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -420,7 +425,9 @@
                                     <h4>Randy Schekman</h4>
                                     <small>Speaker & Nobel Laureate</small>
                                     <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
+                                    <a1 href="http://figureskating.berkeley.edu/">
+                                        <i class="fa fa-plus"></i>
+                                    </a1>
                                 </div>
                                 <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
                             </a>
@@ -675,6 +682,26 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+      $('a1').click(function(e) {
+        e.preventDefault(); // Prevent the href from redirecting directly
+        var linkURL = $(this).attr("href");
+        warnBeforeRedirect(linkURL);
+      });
+
+      function warnBeforeRedirect(linkURL) {
+        swal({
+          title: "Leave this site?", 
+          text: "If you click 'OK', you will be redirected to " + linkURL, 
+          type: "warning",
+          showCancelButton: true
+        }, function() {
+          // Redirect the user
+          window.location.href = linkURL;
+        });
+      }
+    </script>
 
   </body>
 </html>
