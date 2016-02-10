@@ -143,7 +143,7 @@
                         <hr>
                     </div>
                     <div class="clearfix"></div>
-                    <p style="font-size:20px"><em>Click on each committee member below to read more!</em></p>
+                    <p style="font-size:20px"><em>Click on each committee member below to learn more about them!</em></p>
                 </div>
 
                 <div id="team" class="owl-carousel owl-theme row">
@@ -153,13 +153,13 @@
                             <div class="caption">
                                 <h3>Aditya Nandy</h3>
                                 <p>Co-coordinator</p>
-                                <p>Major: Chemical Engineering. Minor: Electrical Engineering and Computer Science. Class: 2017</p>
+                                
                             </div>
                         </div>
                     </div></button7>
 
-                    <div class="item">
-                        <div class="thumbnail">
+                    <button8><div class="item">
+                        </button8><div class="thumbnail">
                             <img src="img/team/Michelle.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
                                 <h3>Michelle Ma</h3>
@@ -167,7 +167,7 @@
                                 <p>Major: Molecular and Cell Biology. Minor: Bioengineering. Class: 2018</p>
                             </div>
                         </div>
-                    </div>
+                    </div></button8>
 
 
                     <div class="item">
@@ -921,7 +921,19 @@
         });
         function warnBeforeRedirect7() {
             swal({     
-                html: "<h4>Aditya Nandy</h4><p>I'm a Chemical Engineering nerd. Seriously. I love math, physics, and chemistry, and you can catch me spending more time than necessary with the Reimer group, conducting research in carbon capture and sequestration! I also figure skate and help lead ROHP. Come talk to me, whether its about sports or science!</p>",    
+                html: "<h3>Aditya Nandy</h3><h4>Major: Chemical Engineering</h4><h4>Minor: Electrical Engineering and Computer Science</h4><h4>Class of 2017</h4><p>I'm a Chemical Engineering nerd. Seriously. I love math, physics, and chemistry, and you can catch me spending more time than necessary with the Reimer group, conducting research in carbon capture and sequestration! I also figure skate and help lead ROHP. Come talk to me, whether its about sports or science!</p>",    
+            });
+        }
+    </script>
+    
+    <script>
+        $('button8').click(function(e) {
+            e.preventDefault();
+            warnBeforeRedirect8();
+        });
+        function warnBeforeRedirect8() {
+            swal({     
+                html: "<h3>Michelle Ma</h3><p>On a typical day, you can find me spending hours in lab pursuing my passion for biomedical research, studying in Main Stacks, exploring Berkeley with friends, planning MCBcDNA events...oh, and making sure ROHP is an amazing experience for you! My favorite thing about Berkeley is how I get to meet so many talented and amazing people who never cease to inspire me, so please come and say hi!</p>",    
             });
         }
     </script>
